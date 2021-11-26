@@ -1,0 +1,121 @@
+.header-bg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 100%;
+  background: linear-gradient(180deg, #200337 0%, rgba(51, 61, 113, 0.82) 49.48%, #443B68 100%);
+  .header-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../../assets/images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .header-Logo{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 15%;
+      p{
+        color: #fff;
+        text-align: center;
+      }
+    }
+    .busAnim{
+      position: absolute;
+      height: 28%;
+      width: 100%;
+      bottom: 0;
+      .Rectangle{
+        position: absolute;
+        bottom: 15%;
+        &.Rectangle1{
+          left: 15%;
+        }
+        &.Rectangle2{
+          left: 40%;
+          bottom: 17%;
+        }
+        &.Rectangle3{
+          left: 58%;
+          bottom: 16%;
+        }
+        &.Rectangle4{
+          left: 4%;
+          bottom: 23%;
+        }
+        &.Rectangle5{
+          left: 33%;
+          bottom: 13%;
+        }
+        &.Rectangle6{
+          left: 76%;
+          bottom: 18%;
+        }
+        &.Rectangle7{
+          left: 73%;
+          bottom: 12%;
+        }
+        &.Rectangle8{
+          left: 90%;
+          bottom: 15%;
+        }
+      }
+      .busStation{
+        position: absolute;
+        right: 10%;
+        bottom: 32%;
+      }
+      .stationMan{
+        position: absolute;
+        right: 20%;
+        bottom: 21%;
+        animation: Upbus 10s infinite;
+      }
+      .bus{
+        position: absolute;
+        bottom: 18%;
+        animation: busRun 10s infinite;
+      }
+      @keyframes busRun {
+        0%{
+          right: 150%;
+        }
+        45%{
+          right: 18%;
+        }
+        50%{
+          right: 18%;
+        }
+        100%{
+          right: -50%;
+        }
+      }
+      @keyframes Upbus {
+        0%{
+          opacity: 1;
+        }
+        45%{
+          opacity: 1;
+        }
+        52%{
+          opacity: 0;
+        }
+        100%{
+          opacity: 0;
+        }
+      }
+    }
+  }
+    
+}

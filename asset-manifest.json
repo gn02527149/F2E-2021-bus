@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "././static/css/main.a80c5110.chunk.css",
+    "main.js": "././static/js/main.d1d0fc23.chunk.js",
+    "main.js.map": "././static/js/main.d1d0fc23.chunk.js.map",
+    "runtime-main.js": "././static/js/runtime-main.d7f2161a.js",
+    "runtime-main.js.map": "././static/js/runtime-main.d7f2161a.js.map",
+    "static/js/2.7c47110d.chunk.js": "././static/js/2.7c47110d.chunk.js",
+    "static/js/2.7c47110d.chunk.js.map": "././static/js/2.7c47110d.chunk.js.map",
+    "index.html": "././index.html",
+    "static/css/main.a80c5110.chunk.css.map": "././static/css/main.a80c5110.chunk.css.map",
+    "static/js/2.7c47110d.chunk.js.LICENSE.txt": "././static/js/2.7c47110d.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "././static/media/bg.98c7ac83.png",
+    "static/media/bus.c9b2472d.png": "././static/media/bus.c9b2472d.png",
+    "static/media/logo.bbf16210.png": "././static/media/logo.bbf16210.png",
+    "static/media/station.f232b0c6.png": "././static/media/station.f232b0c6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7f2161a.js",
+    "static/js/2.7c47110d.chunk.js",
+    "static/css/main.a80c5110.chunk.css",
+    "static/js/main.d1d0fc23.chunk.js"
+  ]
+}
